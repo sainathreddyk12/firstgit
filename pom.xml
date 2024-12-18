@@ -71,5 +71,10 @@
             </plugin>
         </plugins>
     </build>
-
+    <distributionManagement>
+        <repository>
+            <id>nexus-test-releases</id> <!-- Match this ID with the settings.xml -->
+            <url>http://54.234.81.46:8081/repository/java-package-backup/</url>
+        </repository>
+    </distributionManagement>
 </project>
