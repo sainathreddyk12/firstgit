@@ -74,7 +74,7 @@
     <distributionManagement>
         <repository>
             <id>nexus-test-releases</id> <!-- Match this ID with the settings.xml -->
-            <url>http://3.80.139.60:8081/repository/java-package-backup/</url>
+            <url>http://3.80.139.60:8081/repository/nexus-jenkins-integration/</url>
         </repository>
     </distributionManagement>
 </project>
